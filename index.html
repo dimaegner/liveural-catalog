@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#201ead">
+  <meta name="description" content="Веб-каталог LiveUral: трансляции, экраны и техническое обеспечение мероприятий.">
+  <title>LiveUral — каталог мероприятий</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="chrome" role="progressbar" aria-label="Просмотр каталога" aria-valuemin="1" aria-valuemax="14" aria-valuenow="1">
+    <div class="chrome__progress" aria-hidden="true"><i id="progress"></i></div>
+    <span id="current" class="visually-hidden">01</span>
+  </header>
+  <nav class="rail" aria-label="Разделы каталога" id="rail"></nav>
+
+  <main class="catalog" id="catalog">
+    <section class="slide slide--cover blue" id="cover" data-name="Обложка" aria-label="Обложка">
+      <div class="cover-photo"><img src="assets/site-about.jpg" alt="Трансляция фестиваля «Танцы улиц» силами команды LiveUral"></div>
+      <div class="cover-pattern" aria-hidden="true"></div>
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>ПРЯМЫЕ ТРАНСЛЯЦИИ</span></div>
+      <div class="cover-copy">
+        <p class="eyebrow">ПРЯМЫЕ ТРАНСЛЯЦИИ · СВЕТОДИОДНЫЕ ЭКРАНЫ · ТЕХНИЧЕСКОЕ ОБЕСПЕЧЕНИЕ</p>
+        <h1>LIVEURAL<span class="dot">.</span></h1>
+        <p class="cover-line">Каталог услуг</p>
+      </div>
+      <div class="cover-mark" aria-hidden="true">01</div>
+      <a class="scroll-cue" href="#contents"><span></span>Листать каталог</a>
+    </section>
+
+    <section class="slide slide--contents paper" id="contents" data-name="Содержание">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>СОДЕРЖАНИЕ</span></div>
+      <div class="contents-heading"><p class="eyebrow blue-text">НАВИГАЦИЯ</p><h2>Содержание<span class="dot">.</span></h2></div>
+      <div class="contents-grid">
+        <ol>
+          <li><a href="#about"><em>03</em><span>О компании</span></a></li>
+          <li><a href="#clients"><em>04</em><span>Клиенты-компании</span></a></li>
+          <li><a href="#formats"><em>05</em><span>Форматы мероприятий</span></a></li>
+          <li><a href="#broadcast"><em>06</em><span>Прямые трансляции</span></a></li>
+          <li><a href="#screens"><em>07</em><span>Светодиодные экраны</span></a></li>
+          <li><a href="#technical"><em>08</em><span>Техническое обеспечение</span></a></li>
+        </ol>
+        <ol start="7">
+          <li><a href="#equipment"><em>09</em><span>Оборудование и технические возможности</span></a></li>
+          <li><a href="#projects"><em>10</em><span>Реализованные проекты</span></a></li>
+          <li><a href="#reviews"><em>11</em><span>Отзывы</span></a></li>
+          <li><a href="#contact-cta"><em>12</em><span>Призыв к действию</span></a></li>
+          <li><a href="#contacts"><em>13</em><span>Контакты и реквизиты</span></a></li>
+          <li><a href="#back-cover"><em>14</em><span>Задняя обложка</span></a></li>
+        </ol>
+      </div>
+      <div class="vertical-word" aria-hidden="true">LIVEURAL</div>
+      <div class="page-no">02</div>
+    </section>
+
+    <section class="slide slide--about" id="about" data-name="О компании">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>01 / О КОМПАНИИ</span></div>
+      <div class="about-panel blue">
+        <p class="eyebrow">ОПЫТ · ТЕХНИЧЕСКАЯ БАЗА</p>
+        <h2>О компании<span class="dot">.</span></h2>
+        <img src="assets/site-about.jpg" alt="Трансляция фестиваля «Танцы улиц» силами команды LiveUral" loading="lazy">
+      </div>
+      <div class="about-facts paper">
+        <div class="about-story">
+          <div class="about-years"><strong>15</strong><span>лет помогаем событиям звучать, светить и выходить в эфир</span></div>
+          <div class="about-narrative">
+            <p>LiveUral начала в 2011 году с трансляции конкурса «Российская студенческая весна».</p>
+            <p>Сегодня в команде 14 технических специалистов. За год LiveUral проводит 100 трансляций, а в портфолио компании больше 200 проектов.</p>
+          </div>
+        </div>
+      </div>
+      <div class="page-no">03</div>
+    </section>
+
+    <section class="slide slide--clients paper" id="clients" data-name="Клиенты-компании">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>02 / КЛИЕНТЫ</span></div>
+      <div class="clients-title"><p class="eyebrow blue-text">ОРГАНИЗАЦИИ В ПРОЕКТАХ</p><h2>Клиенты<span class="dot">.</span></h2></div>
+      <div class="client-list">
+        <div><strong>ПАО «Транснефть»</strong></div>
+        <div><strong>ООО «Газпром Недра»</strong></div>
+        <div><strong>Тюменский филармонический оркестр</strong></div>
+        <div><strong>Ютэйр</strong></div>
+      </div>
+      <div class="page-no">04</div>
+    </section>
+
+    <section class="slide slide--formats paper" id="formats" data-name="Форматы мероприятий">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>03 / ФОРМАТЫ</span></div>
+      <div class="formats-copy">
+        <h2>Форматы мероприятий<span class="dot">.</span></h2>
+        <div class="formats-types"><span>Деловые форумы и конференции</span><span>Концерты и фестивали</span><span>Спортивные мероприятия</span><span>Корпоративные мероприятия</span></div>
+      </div>
+      <figure class="formats-photo photo-frame"><img src="assets/site-technical.png" alt="Техническое обеспечение промышленно-энергетического форума TNF" loading="lazy"><figcaption>TNF · ТЮМЕНЬ</figcaption></figure>
+      <figure class="formats-detail photo-frame"><img src="assets/site-screens.jpg" alt="Светодиодные экраны на мероприятии LiveUral" loading="lazy"><figcaption>СВЕТОДИОДНЫЕ ЭКРАНЫ</figcaption></figure>
+      <div class="page-no">05</div>
+    </section>
+
+    <section class="slide slide--broadcast blue" id="broadcast" data-name="Прямые трансляции">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>04 / ТРАНСЛЯЦИИ</span></div>
+      <div class="broadcast-copy">
+        <p class="eyebrow">ОРГАНИЗАЦИЯ ПРЯМЫХ ТРАНСЛЯЦИЙ</p>
+        <h2>Прямые трансляции<span class="dot">.</span></h2>
+        <p class="lead">Полный цикл производства: от съёмки до вещания.</p>
+        <div class="broadcast-details"><div><b>Многокамерная съёмка</b><span>Профессиональное оборудование</span></div><div><b>Платформы трансляций</b><span>YouTube · VK Live · Zoom</span></div></div>
+        <p class="broadcast-project"><strong>100 трансляций в год</strong><span>Цикл трансляций концертов Тюменского филармонического оркестра · 2023–2024</span></p>
+      </div>
+      <div class="broadcast-photo"><img src="assets/site-broadcast.png" alt="Видеокамера на мероприятии «80 лет Тюменской области»" loading="lazy"></div>
+      <div class="page-no">06</div>
+    </section>
+
+    <section class="slide slide--screens paper" id="screens" data-name="Светодиодные экраны">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>05 / ЭКРАНЫ</span></div>
+      <div class="screens-heading"><p class="eyebrow blue-text">ПРОКАТ · ДОСТАВКА · МОНТАЖ</p><h2>Прокат светодиодных экранов<span class="dot">.</span></h2></div>
+      <div class="screens-image"><img src="assets/site-screens.jpg" alt="Светодиодные экраны на мероприятии LiveUral" loading="lazy"></div>
+      <div class="screens-bottom"><span>Для помещений</span><span>Для улицы и фасада здания</span><span>Полное техническое сопровождение мероприятия</span></div>
+      <div class="page-no">07</div>
+    </section>
+
+    <section class="slide slide--technical paper" id="technical" data-name="Техническое обеспечение">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>06 / ТЕХНИЧЕСКОЕ ОБЕСПЕЧЕНИЕ</span></div>
+      <div class="technical-head"><p class="eyebrow blue-text">ОТ ПЛАНИРОВАНИЯ ДО ТЕХНИЧЕСКОГО ОБСЛУЖИВАНИЯ</p><h2>Техническое обеспечение мероприятий<span class="dot">.</span></h2></div>
+      <div class="technical-image photo-frame"><img src="assets/site-technical.png" alt="Техническая команда на промышленно-энергетическом форуме TNF" loading="lazy"></div>
+      <div class="technical-grid">
+        <article><h3>Звуковое оборудование</h3><p>Аудиосистемы, микрофоны, усилители и микшерные пульты.</p></article>
+        <article><h3>Световое оборудование</h3><p>Светодиодные прожекторы, сценические светильники и лазерные установки.</p></article>
+        <article><h3>Сцены и конструкции</h3><p>Мобильные сцены, декорации и конструкции для оформления помещений.</p></article>
+        <article><h3>Организация Wi-Fi</h3><p>Интернет для гостей и организаторов.</p></article>
+        <article><h3>Телемосты и ВКС</h3><p>Онлайн-подключение удалённых участников по видео и аудио.</p></article>
+        <article><h3>Видеонаблюдение и безопасность</h3><p>Системы видеонаблюдения для контроля мероприятия.</p></article>
+      </div>
+      <div class="page-no">08</div>
+    </section>
+
+    <section class="slide slide--equipment" id="equipment" data-name="Оборудование и технические возможности">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>07 / ОБОРУДОВАНИЕ</span></div>
+      <div class="equipment-image"><img src="assets/site-broadcast.png" alt="Профессиональная видеокамера на мероприятии LiveUral" loading="lazy"></div>
+      <div class="equipment-copy blue">
+        <p class="eyebrow">ОБОРУДОВАНИЕ И ТЕХНИЧЕСКИЕ ВОЗМОЖНОСТИ</p>
+        <h2>Технические возможности<span class="dot">.</span></h2>
+        <div class="equipment-grid"><article><h3>Звук</h3><p>Аудиосистемы, микрофоны, усилители и микшерные пульты</p></article><article><h3>Свет</h3><p>Светодиодные прожекторы, сценические светильники и лазерные установки</p></article><article><h3>Сцены и конструкции</h3><p>Мобильные сцены разных размеров и конфигураций</p></article><article><h3>Светодиодные экраны</h3><p>Для помещений, улиц, фасадов зданий и мероприятий</p></article></div>
+      </div>
+      <div class="page-no">09</div>
+    </section>
+
+    <section class="slide slide--projects paper" id="projects" data-name="Реализованные проекты">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>08 / ПРОЕКТЫ</span></div>
+      <div class="projects-title"><p class="eyebrow blue-text">УСПЕШНО ВЫПОЛНЕННЫЕ ПРОЕКТЫ</p><h2>Реализованные проекты<span class="dot">.</span></h2></div>
+      <div class="projects-list">
+        <article><h3>Конкурс профессионального мастерства «Лучший по профессии» ПАО «Транснефть»</h3><time>Тюмень · 2022–2023</time></article>
+        <article><h3>Фестиваль «Танцы Улиц»</h3><time>Тюмень · 2024</time></article>
+        <article><h3>Фестиваль «Лето в Тобольском кремле»</h3><time>Тюмень · 2018–2023</time></article>
+        <article><h3>Цикл трансляций концертов Тюменского филармонического оркестра</h3><time>Тюмень · 2023–2024</time></article>
+      </div>
+      <div class="page-no">10</div>
+    </section>
+
+    <section class="slide slide--reviews blue" id="reviews" data-name="Отзывы">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>09 / ОТЗЫВЫ</span></div>
+      <div class="reviews-title"><p class="eyebrow">ОФИЦИАЛЬНЫЕ ОТЗЫВЫ</p><h2>Отзывы<span class="dot">.</span></h2></div>
+      <div class="reviews-content"><ul><li>Администрация города Тюмень</li><li>Танцы Улиц</li><li>Женское движение Единой России</li><li>Мать и дитя</li><li>INNOWEEK 2018</li><li>СберБанк</li><li>Чемпионат России по компьютерному спорту</li><li>Инфотех 2020</li><li>Театральная революция</li></ul></div>
+      <div class="page-no">11</div>
+    </section>
+
+    <section class="slide slide--cta" id="contact-cta" data-name="Призыв к действию">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>10 / ПРИЗЫВ К ДЕЙСТВИЮ</span></div>
+      <div class="cta-pattern" aria-hidden="true"></div>
+      <p class="eyebrow">ОСТАВЬТЕ ЗАЯВКУ НА КОНСУЛЬТАЦИЮ</p>
+      <h2>Рассчитать стоимость<span class="dot">.</span></h2>
+      <a class="cta-link" href="https://liveural.ru/">Получить расчёт <span>↗</span></a>
+      <div class="cta-options"><a href="https://t.me/liveural" target="_blank" rel="noreferrer">Telegram ↗</a><a href="https://max.ru/u/f9LHodD0cOJ2TGEFMwyHaGbDYndg3ylP5XB0aTMk_tQIsyMEhx5FuFCbqpo" target="_blank" rel="noreferrer">MAX ↗</a><a href="mailto:info@liveural.ru">info@liveural.ru</a></div>
+      <div class="print-qr-group"><a href="https://t.me/liveural"><img src="assets/qr-telegram.svg" alt="QR-код Telegram LiveUral"><span>Telegram</span></a><a href="https://max.ru/u/f9LHodD0cOJ2TGEFMwyHaGbDYndg3ylP5XB0aTMk_tQIsyMEhx5FuFCbqpo"><img src="assets/qr-max.svg" alt="QR-код MAX LiveUral"><span>MAX</span></a></div>
+      <div class="page-no">12</div>
+    </section>
+
+    <section class="slide slide--contacts paper" id="contacts" data-name="Контакты и реквизиты">
+      <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>11 / КОНТАКТЫ И РЕКВИЗИТЫ</span></div>
+      <div class="contacts-copy"><p class="eyebrow blue-text">КОНТАКТЫ И РЕКВИЗИТЫ</p><h2>Контакты<span class="dot">.</span></h2><a class="phone" href="tel:+73452680180">+7 (3452) 680-180</a><a href="mailto:info@liveural.ru">info@liveural.ru</a><a href="https://liveural.ru/" target="_blank" rel="noreferrer">liveural.ru ↗</a></div>
+      <div class="contacts-details"><address>Тюмень, ул. Московский тракт, д. 120, корп. 3, стр. 2</address><p>ООО «ЛайфУрал» · ИНН 7224046406 · КПП 720301001 · ОГРН 1117232054158</p></div>
+      <div class="page-no">13</div>
+    </section>
+
+    <section class="slide slide--back blue" id="back-cover" data-name="Задняя обложка">
+      <div class="cover-pattern" aria-hidden="true"></div>
+      <div class="folio"><span>LIVEURAL</span><span>LIVEURAL.RU</span></div>
+      <div class="back-word">LIVEURAL<span class="dot">.</span></div>
+      <a class="back-url" href="https://liveural.ru/" target="_blank" rel="noreferrer">liveural.ru ↗</a>
+      <img class="back-qr print-qr" src="assets/qr-liveural.svg" alt="QR-код сайта liveural.ru">
+      <div class="back-note">СДЕЛАЙТЕ ВАШЕ СОБЫТИЕ ЯРКИМ И ЗАПОМИНАЮЩИМСЯ С «ЛАЙФУРАЛ»!</div>
+      <div class="page-no">14</div>
+    </section>
+  </main>
+  <div class="controls" aria-label="Перелистывание">
+    <button id="prev" type="button" aria-label="Предыдущий слайд">↑</button>
+    <button id="next" type="button" aria-label="Следующий слайд">↓</button>
+  </div>
+</body>
+</html>
