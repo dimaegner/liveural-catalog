@@ -1,0 +1,60 @@
+@import url("styles.css");
+
+/* Альтернативная палитра: синий плюс терракотовый, шалфейный и охристый. */
+:root {
+  --blue: #27235d;
+  --blue-dark: #1a1743;
+  --paper: #f5f1e8;
+  --ink: #201e2b;
+  --muted: #625e68;
+  --accent-coral: #d96851;
+  --accent-sage: #527d69;
+  --accent-ochre: #bd8a25;
+}
+
+.blue { background: var(--blue); }
+.dot { color: var(--accent-coral); }
+.blue .dot,
+.cover-copy h1 .dot { color: #e9b861; }
+.cover-photo::after { background: rgba(39, 35, 93, .68); }
+
+.slide--contents .contents-grid em { color: var(--accent-coral); }
+.about-proof > div:nth-child(1) strong { color: var(--accent-coral); }
+.about-proof > div:nth-child(2) strong { color: var(--accent-sage); }
+.about-proof > div:nth-child(3) strong { color: var(--accent-ochre); }
+.about-proof > div:nth-child(4) strong { color: var(--blue); }
+
+.slide--formats { background: #ead2c6; }
+.formats-types span:nth-child(3n + 1) { color: var(--accent-coral); }
+.formats-types span:nth-child(3n + 2) { color: var(--blue); }
+.formats-types span:nth-child(3n) { color: var(--accent-sage); }
+
+.slide--screens { background: #dce7dc; }
+.slide--screens .blue-text,
+.slide--screens .screens-heading .dot { color: var(--accent-sage); }
+.slide--technical { background: #eee4c9; }
+.slide--technical .blue-text,
+.slide--technical .technical-head .dot { color: var(--accent-ochre); }
+
+.slide--equipment { background: var(--blue-dark); }
+.equipment-grid article:nth-child(3n + 1) h3 { color: #efb19f; }
+.equipment-grid article:nth-child(3n + 2) h3 { color: #b5d0bd; }
+.equipment-grid article:nth-child(3n) h3 { color: #e9c978; }
+
+.slide--reviews { background: #37326f; }
+.reviews-title .dot { color: #e9b861; }
+.slide--cta { background: var(--accent-coral); color: #201e2b; }
+.slide--cta .folio { color: #201e2b; }
+.slide--cta .eyebrow { color: #27235d; }
+.slide--cta .dot { color: #f5f1e8; }
+.slide--cta .cta-options a { color: #201e2b; }
+
+.contacts-copy > a { color: var(--accent-sage); }
+.contacts-copy > a:hover { color: var(--accent-coral); }
+
+@media print {
+  .slide--formats { background: #ead2c6 !important; }
+  .slide--screens { background: #dce7dc !important; }
+  .slide--technical { background: #eee4c9 !important; }
+  .slide--cta { background: var(--accent-coral) !important; }
+}
