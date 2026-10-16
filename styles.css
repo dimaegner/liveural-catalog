@@ -82,7 +82,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #f3c94e; outline-offs
 .about-years span { max-width: 14ch; font-size: clamp(18px, 2vw, 25px); line-height: 120%; }
 .about-proof { display: grid; grid-template-columns: 1fr 1.2fr 1.5fr; align-items: start; gap: 13px; }
 .about-proof > div { display: flex; flex-direction: column; align-items: flex-start; }
-.about-proof strong { color: var(--blue); font-size: clamp(43px, 5vw, 70px); line-height: 90%; font-weight: 500; letter-spacing: -2px; }
+.about-proof strong { color: var(--blue); font-size: clamp(64px, 6vw, 86px); line-height: 90%; font-weight: 500; letter-spacing: -2px; }
 .about-proof span { max-width: 19ch; margin-top: 6px; color: var(--muted); font-size: 12px; line-height: 130%; }
 .proof-streams { padding-top: 13px; }
 .proof-projects { padding-top: 4px; }
@@ -227,7 +227,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #f3c94e; outline-offs
   .about-years strong { font-size: 96px; }
   .about-years span { font-size: 16px; }
   .about-proof { grid-template-columns: 1fr 1fr; column-gap: 13px; row-gap: 13px; }
-  .about-proof strong { font-size: 48px; }
+  .about-proof strong { font-size: 64px; }
   .about-proof span { margin-top: 4px; font-size: 11px; }
   .proof-streams, .proof-projects { padding-top: 0; }
   .about-origin { margin-top: 13px; font-size: 10px; }
