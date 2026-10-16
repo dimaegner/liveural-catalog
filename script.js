@@ -4,6 +4,8 @@ const current = document.querySelector('#current');
 const progress = document.querySelector('#progress');
 const chrome = document.querySelector('.chrome');
 const controls = document.querySelector('.controls');
+const prev = document.querySelector('#prev');
+const next = document.querySelector('#next');
 let active = 0;
 
 rail.innerHTML = slides.map((slide, i) =>
@@ -23,7 +25,7 @@ function setActive(index) {
   const dark = slides[active].classList.contains('blue') || slides[active].classList.contains('slide--cta');
   chrome.classList.toggle('is-dark', dark);
   rail.classList.toggle('is-dark', dark);
-  controls.classList.toggle('is-dark', dark);
+  if (controls) controls.classList.toggle('is-dark', dark);
 }
 
 const observer = new IntersectionObserver((entries) => {
@@ -37,8 +39,8 @@ function goTo(index) {
   slides[target].scrollIntoView({ behavior: 'smooth', block: 'start' });
   setActive(target);
 }
-document.querySelector('#prev').addEventListener('click', () => goTo(active - 1));
-document.querySelector('#next').addEventListener('click', () => goTo(active + 1));
+if (prev) prev.addEventListener('click', () => goTo(active - 1));
+if (next) next.addEventListener('click', () => goTo(active + 1));
 document.addEventListener('keydown', (event) => {
   if (event.altKey || event.ctrlKey || event.metaKey || ['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
   if (['ArrowDown', 'PageDown', ' '].includes(event.key)) { event.preventDefault(); goTo(active + 1); }
