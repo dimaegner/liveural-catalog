@@ -10,7 +10,7 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <header class="chrome" role="progressbar" aria-label="Просмотр каталога" aria-valuemin="1" aria-valuemax="14" aria-valuenow="1">
+  <header class="chrome visually-hidden" role="progressbar" aria-label="Просмотр каталога" aria-valuemin="1" aria-valuemax="14" aria-valuenow="1">
     <div class="chrome__progress" aria-hidden="true"><i id="progress"></i></div>
     <span id="current" class="visually-hidden">01</span>
   </header>
@@ -19,15 +19,13 @@
   <main class="catalog" id="catalog">
     <section class="slide slide--cover blue" id="cover" data-name="Обложка" aria-label="Обложка">
       <div class="cover-photo"><img src="assets/site-about.jpg" alt="Трансляция фестиваля «Танцы улиц» силами команды LiveUral"></div>
-      <div class="cover-pattern" aria-hidden="true"></div>
       <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>ПРЯМЫЕ ТРАНСЛЯЦИИ</span></div>
       <div class="cover-copy">
         <p class="eyebrow">ПРЯМЫЕ ТРАНСЛЯЦИИ · СВЕТОДИОДНЫЕ ЭКРАНЫ · ТЕХНИЧЕСКОЕ ОБЕСПЕЧЕНИЕ</p>
         <h1>LIVEURAL<span class="dot">.</span></h1>
         <p class="cover-line">Каталог услуг</p>
       </div>
-      <div class="cover-mark" aria-hidden="true">01</div>
-      <a class="scroll-cue" href="#contents"><span></span>Листать каталог</a>
+      <a class="scroll-cue" href="#contents">Листать каталог ↓</a>
     </section>
 
     <section class="slide slide--contents paper" id="contents" data-name="Содержание">
@@ -51,7 +49,6 @@
           <li><a href="#back-cover"><em>14</em><span>Задняя обложка</span></a></li>
         </ol>
       </div>
-      <div class="vertical-word" aria-hidden="true">LIVEURAL</div>
       <div class="page-no">02</div>
     </section>
 
@@ -167,7 +164,6 @@
 
     <section class="slide slide--cta" id="contact-cta" data-name="Призыв к действию">
       <div class="folio"><span>LIVEURAL · КАТАЛОГ</span><span>10 / ПРИЗЫВ К ДЕЙСТВИЮ</span></div>
-      <div class="cta-pattern" aria-hidden="true"></div>
       <p class="eyebrow">ОСТАВЬТЕ ЗАЯВКУ НА КОНСУЛЬТАЦИЮ</p>
       <h2>Рассчитать стоимость<span class="dot">.</span></h2>
       <a class="cta-link" href="https://liveural.ru/">Получить расчёт <span>↗</span></a>
@@ -184,7 +180,6 @@
     </section>
 
     <section class="slide slide--back blue" id="back-cover" data-name="Задняя обложка">
-      <div class="cover-pattern" aria-hidden="true"></div>
       <div class="folio"><span>LIVEURAL</span><span>LIVEURAL.RU</span></div>
       <div class="back-word">LIVEURAL<span class="dot">.</span></div>
       <a class="back-url" href="https://liveural.ru/" target="_blank" rel="noreferrer">liveural.ru ↗</a>
