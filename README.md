@@ -1,6 +1,6 @@
 # LiveUral — каталог мероприятий
 
-Статический веб-каталог компании LiveUral. Содержимое публикуется на GitHub Pages через GitHub Actions при каждом push в `main`.
+Статический веб-каталог компании LiveUral. Сайт: https://dimaegner.github.io/liveural-catalog/ . Содержимое публикуется на GitHub Pages через GitHub Actions при каждом push в `main`.
 
 ## Локальный просмотр
 
